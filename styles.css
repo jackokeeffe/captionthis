@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+img {
+    width: 30%;
+    border: 5px solid #555;
+}
+
+p {
+    display: inline;
+    padding-right: 0.5%;
+}
+
+a {
+    color: gray;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    outline: none;
+    font-size: 100%;
+}
+
+#source {
+    display: block;
+    margin-top: 0%;
+    margin-left: -17.5%;
+    margin-bottom: 0%;
+    font-size: 80%;
+    color: gray;
+}
+
+#submission {
+    margin-top: -0.5%;
+    margin-right: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 80%;
+        right: 23.5%;
+        text-align: justify;
+    }
+    #source {
+        margin-left: -30%
+    }
+}

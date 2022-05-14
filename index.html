@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaptionThis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://cdn.glitch.global/134f118f-cd74-4e83-ab80-420968d3a8e3/favicon.ico?v=1652310879782" />
+    <link rel="apple-touch-icon" href="https://cdn.glitch.global/134f118f-cd74-4e83-ab80-420968d3a8e3/favicon.ico?v=1652310879782">
+    <script src="function.js"></script>
+
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="CaptionThis | A Comic-Word Game" />
+    <meta name="description" content="challenge friends to write the funniest captions" />
+    <meta name="keyword" content="word, funny, game, comics, caption, online game, comic game" />
+    <meta name="author" content="Jack O'Keeffe">
+    <meta name="language" content="EN">
+    <meta name="url" content="https://www.captionthis.art/">
+
+    <meta name=’robots’ content=’index, follow’>
+    <meta name="revisit-after" content="7 days">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body onload="getIssue()">
+    <header>
+        <h1>captionthis.art</h1>
+    </header>
+
+    <img id="comic" src="cover.png" alt="Comic Strip">
+    <p id="source">Comic from <a href="https://www.newyorker.com/humor" target="_blank" rel="nofollow">The New Yorker</a></p>
+    <br>
+
+    <div id="submission">
+        <p>Caption: </p>
+        <input type="text" id="caption" maxlength="100" autocomplete="off">
+        <button id="submit" onclick="copyEntry()">Submit</button>
+    </div>
+</body>
+
+</html>

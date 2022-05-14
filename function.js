@@ -13,11 +13,11 @@ function getIssue() {
     // If the image has not been loaded onto the user's screen...
     if (loaded == false) {
         // Update the comics element and replace with today's comic (day 1 = comics/1.png)
-        document.getElementById("comic").src = "comics/" + (dayOfTheYear - 132) + ".png";
+        document.getElementById("comic").src = "comics/" + (dayOfTheYear - 133) + ".png";
         loaded = true;
     } else {
         // To find this # without re-loading the image, this conditional is used
-        return dayOfTheYear - 132;
+        return dayOfTheYear - 133;
     }
     hasPlayed();
 }

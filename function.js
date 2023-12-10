@@ -39,7 +39,7 @@ function hasPlayed() {
     }
 }
 
-// When the 'Submit' button is pressed, change it to a 'Share' button
+// When the 'Submit' button is pressed, change it to a 'Share' button.
 function copyEntry() {
     // If the caption is not blank...
     if (document.getElementById("caption").value.trim() != "") {
